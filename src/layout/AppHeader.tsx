@@ -3,7 +3,6 @@ import { Link } from "react-router";
 import { useSidebar } from "../context/SidebarContext";
 import UserDropdown from "../components/header/UserDropdown";
 import { Menu, X, MoreVertical } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
 
 const AppHeader: React.FC = () => {
   const [isApplicationMenuOpen, setApplicationMenuOpen] = useState(false);

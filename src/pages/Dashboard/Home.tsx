@@ -1,4 +1,3 @@
-import React from "react";
 import PageMeta from "../../components/common/PageMeta";
 import { OverviewCards } from "../../components/dashboard/OverviewCards";
 import { SalesReport, StoreOverview } from "../../components/dashboard/MiddleWidgets";

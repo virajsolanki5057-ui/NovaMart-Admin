@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from "react";
-import { motion } from "framer-motion";
 import Button from "../../ui/button/Button";
 import { Modal } from "../../ui/modal";
 import {

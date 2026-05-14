@@ -1,5 +1,4 @@
 import { Modal } from "../../ui/modal";
-import Button from "../../ui/button/Button";
 import type { Product } from "../../../api/productsApi";
 import { Tag, X, Box, Info } from "lucide-react";
 
@@ -16,7 +15,7 @@ export default function ProductViewModal({
   product,
   isLoading,
   onClose,
-  onEdit,
+  onEdit: _onEdit,
 }: Props) {
   if (!product && !isLoading) return null;
 

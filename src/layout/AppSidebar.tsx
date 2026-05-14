@@ -1,10 +1,6 @@
 import { useCallback } from "react";
 import { Link, useLocation } from "react-router";
-import {
-  HorizontaLDots,
-} from "../icons";
 import { useSidebar } from "../context/SidebarContext";
-import SidebarWidget from "./SidebarWidget";
 import { motion } from "framer-motion";
 
 import { 
